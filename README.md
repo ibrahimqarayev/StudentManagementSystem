@@ -1,3 +1,3 @@
 # Console APP
-# Student Registration System
+# Student Management System
 ### from Lesson
