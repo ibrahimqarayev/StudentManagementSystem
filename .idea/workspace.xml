@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="132330eb-e6b3-458e-83e3-c3ee36d89871" name="Changes" comment="Teacher" />
+    <list default="true" id="132330eb-e6b3-458e-83e3-c3ee36d89871" name="Changes" comment="Teacher">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +43,7 @@
       <workItem from="1671385144927" duration="3510000" />
       <workItem from="1671432861877" duration="220000" />
       <workItem from="1671476983966" duration="120000" />
+      <workItem from="1671652126816" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671385495054</created>
@@ -125,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671477094929</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="initial commit">
+      <created>1671652146288</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671652146288</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Teacher">
+      <created>1671652195674</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671652195674</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,10 +164,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Person" />
     <MESSAGE value="Main" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Menu" />
     <MESSAGE value="MenuUtil" />
     <MESSAGE value="Student" />
+    <MESSAGE value="initial commit" />
     <MESSAGE value="Teacher" />
     <option name="LAST_COMMIT_MESSAGE" value="Teacher" />
   </component>
