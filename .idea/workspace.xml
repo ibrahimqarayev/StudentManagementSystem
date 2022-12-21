@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="132330eb-e6b3-458e-83e3-c3ee36d89871" name="Changes" comment="Teacher">
-      <change afterPath="$PROJECT_DIR$/src/bean/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/MenuUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Teacher.java" afterDir="false" />
-    </list>
+    <list default="true" id="132330eb-e6b3-458e-83e3-c3ee36d89871" name="Changes" comment="Teacher" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +39,7 @@
       <updated>1671385143248</updated>
       <workItem from="1671385144927" duration="3510000" />
       <workItem from="1671432861877" duration="220000" />
+      <workItem from="1671476983966" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671385495054</created>
@@ -89,7 +83,49 @@
       <option name="project" value="LOCAL" />
       <updated>1671385697698</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Main">
+      <created>1671477004296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477004296</updated>
+    </task>
+    <task id="LOCAL-00008" summary="initial commit">
+      <created>1671477042647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477042647</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Menu">
+      <created>1671477054333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477054333</updated>
+    </task>
+    <task id="LOCAL-00010" summary="MenuUtil">
+      <created>1671477071996</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477071996</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Student">
+      <created>1671477084459</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477084459</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Teacher">
+      <created>1671477094929</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477094929</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +145,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Person" />
+    <MESSAGE value="Main" />
     <MESSAGE value="initial commit" />
+    <MESSAGE value="Menu" />
+    <MESSAGE value="MenuUtil" />
+    <MESSAGE value="Student" />
     <MESSAGE value="Teacher" />
     <option name="LAST_COMMIT_MESSAGE" value="Teacher" />
   </component>
