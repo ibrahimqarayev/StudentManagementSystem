@@ -1,6 +1,6 @@
 package service.menu;
 
-public class MenuLoginProcess extends MenuService {
+public class MenuLoginService extends MenuService {
     @Override
     public void process() {
 
