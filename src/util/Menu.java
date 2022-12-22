@@ -1,26 +1,29 @@
 package util;
 
+import service.menu.MenuLoginService;
 import service.menu.MenuService;
 
 public enum Menu {
-    LOGIN("Login"),
-    REGISTER("Register"),
-    ADD_STUDENT("Add student"),
-    ADD_TEACHER("Add teacher"),
-    SHOW_ALL_TEACHER("Show all teachers"),
-    SHOW_ALL_STUDENT("Show all students");
+    LOGIN("Login",new MenuLoginService()),
+    REGISTER("Register",null),
+    ADD_STUDENT("Add student",null),
+    ADD_TEACHER("Add teacher",null),
+    SHOW_ALL_TEACHER("Show all teachers",null),
+    SHOW_ALL_STUDENT("Show all students",null);
 
-    String label;
+    private String label;
+    private MenuService service;
 
-    Menu(String label) {
+    Menu(String label,MenuService service) {
         this.label = label;
+        this.service=service;
     }
 
     public String getLabel() {
         return label;
     }
 
-    public void processMenu(MenuService service) {
+    public void processMenu() {
         service.process();
     }
 }
