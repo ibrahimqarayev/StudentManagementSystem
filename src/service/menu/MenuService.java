@@ -1,5 +1,5 @@
 package service.menu;
 
-public abstract class MenuProcess {
+public abstract class MenuService {
     public abstract void process();
 }
