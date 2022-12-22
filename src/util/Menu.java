@@ -1,5 +1,7 @@
 package util;
 
+import service.menu.MenuService;
+
 public enum Menu {
     LOGIN("Login"),
     REGISTER("Register"),
@@ -16,5 +18,9 @@ public enum Menu {
 
     public String getLabel() {
         return label;
+    }
+
+    public void processMenu(MenuService service) {
+        service.process();
     }
 }
