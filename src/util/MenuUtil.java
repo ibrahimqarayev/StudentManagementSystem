@@ -1,17 +1,20 @@
 package util;
 
+import java.util.Scanner;
+
 public class MenuUtil {
 
-    public static void showMenu() {
-        Menu[] menus = Menu.values();
-        for (int i=0;i<menus.length;i++){
-            System.out.println(menus[i]);
-        }
+    public static Menu showMenu() {
+
+        System.out.println("Please enter number:");
+        Menu.showAllMenu();
+        Scanner scanner = new Scanner(System.in);
+        int selectedMenu = scanner.nextInt();
+        return Menu.find(selectedMenu);
     }
 
     public static void processMenu(Menu menu) {
-
-
+        menu.process();
     }
 
 }
