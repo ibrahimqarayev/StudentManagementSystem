@@ -1,17 +1,17 @@
 package util;
 
-import service.menu.MenuLoginService;
-import service.menu.MenuRegisterService;
+import bean.Config;
+import service.menu.*;
 import service.menu.inter.MenuService;
 
 
 public enum Menu {
     LOGIN(1, "Login", new MenuLoginService()),
     REGISTER(2, "Register", new MenuRegisterService()),
-    ADD_STUDENT(3, "Add student", null),
-    ADD_TEACHER(4, "Add teacher", null),
-    SHOW_ALL_TEACHER(5, "Show all teachers", null),
-    SHOW_ALL_STUDENT(6, "Show all students", null),
+    ADD_STUDENT(3, "Add student", new MenuAddStudentService()),
+    ADD_TEACHER(4, "Add teacher", new MenuAddTeacherService()),
+    SHOW_ALL_STUDENT(5, "Show all students", new MenuShowStudentService()),
+    SHOW_ALL_TEACHER(6, "Show all teachers", new MenuShowTeacherService()),
     UNKNOWN;
 
     private int number;
@@ -40,6 +40,7 @@ public enum Menu {
 
     public void process() {
         service.process();
+        MenuUtil.showMenu();
     }
 
     public int getNumber() {
@@ -61,7 +62,14 @@ public enum Menu {
         for (int i = 0; i < menus.length; i++) {
 
             if (menus[i] != Menu.UNKNOWN) {
-                System.out.println(menus[i]);
+
+                if (menus[i] == LOGIN || menus[i] == REGISTER) {
+                    if (!Config.isLoggedIn()) {
+                        System.out.println(menus[i]);
+                    }
+                } else if (Config.isLoggedIn()) {
+                    System.out.println(menus[i]);
+                }
             }
         }
     }
