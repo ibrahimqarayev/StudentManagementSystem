@@ -1,14 +1,16 @@
 package bean;
 
-public abstract class Person {
+import java.io.Serializable;
+
+public abstract class Person implements Serializable {
     private String name;
     private String surname;
     private int age;
 
-     Person() {
+    Person() {
     }
 
-     Person(String name, String surname, int age) {
+    Person(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -36,5 +38,11 @@ public abstract class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+
+    @Override
+    public String toString() {
+        return "name=" + name + " " + ", surname=" + surname;
     }
 }
