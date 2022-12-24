@@ -1,6 +1,6 @@
 package bean;
 
-public class Student extends Person{
+public class Student extends Person {
     private String schoolName;
     private double scholarship;
 
@@ -20,11 +20,5 @@ public class Student extends Person{
         this.scholarship = scholarship;
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "schoolName='" + schoolName + '\'' +
-                ", scholarship=" + scholarship +
-                '}';
-    }
+
 }
