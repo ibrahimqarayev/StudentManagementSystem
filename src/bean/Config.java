@@ -1,10 +1,29 @@
 package bean;
 
+import util.FileUtility;
+
+
+
 public class Config {
     private Student[] students = new Student[0];
     private Teacher[] teachers = new Teacher[0];
     private static Config config = null;
     private static boolean loggedIn;
+
+    public static void initialize() {
+        Object object = FileUtility.readFileDeserialize("app.obj");
+        if (object == null) {
+            return;
+        }
+        if (object instanceof Config) {
+            config = (Config) object;
+        }
+    }
+
+
+    public static void save() {
+        FileUtility.writeObjectToFile(Config.instance(), "app.obj");
+    }
 
 
     public Student[] getStudents() {
