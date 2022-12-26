@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MenuLoginService implements MenuLoginServiceInter {
 
     @Override
-    public void process() {
+    public void processAbstract() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Username:");
