@@ -4,7 +4,7 @@ import service.menu.inter.MenuRegisterServiceInter;
 
 public class MenuRegisterService implements MenuRegisterServiceInter {
     @Override
-    public void process() {
+    public void processAbstract() {
 
         System.out.println("Register");
 
