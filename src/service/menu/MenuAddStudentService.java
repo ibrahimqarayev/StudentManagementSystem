@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class MenuAddStudentService implements MenuAddStudentServiceInter {
 
     @Override
-    public void process() {
+    public void processAbstract() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Name:");
