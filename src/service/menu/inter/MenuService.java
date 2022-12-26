@@ -1,5 +1,10 @@
 package service.menu.inter;
 
-public interface  MenuService {
-    public  void process();
+public interface MenuService {
+
+    default void process() {
+        processAbstract();
+    }
+
+    public abstract void processAbstract();
 }
