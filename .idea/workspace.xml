@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="132330eb-e6b3-458e-83e3-c3ee36d89871" name="Changes" comment="Teacher">
+    <list default="true" id="132330eb-e6b3-458e-83e3-c3ee36d89871" name="Changes" comment="MenuShowTeacherService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/menu/inter/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/menu/inter/MenuService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,13 +13,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2J64LWT1LXR3o75elSrr5JoPVvE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,7 +39,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="StudentManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,107 +73,367 @@
       <workItem from="1671385144927" duration="3510000" />
       <workItem from="1671432861877" duration="220000" />
       <workItem from="1671476983966" duration="120000" />
-      <workItem from="1671652126816" duration="87000" />
+      <workItem from="1671652126816" duration="127000" />
+      <workItem from="1671688102367" duration="16000" />
+      <workItem from="1671736552813" duration="1816000" />
+      <workItem from="1671774159945" duration="7403000" />
+      <workItem from="1671787879822" duration="1426000" />
+      <workItem from="1671797659734" duration="1851000" />
+      <workItem from="1671819118397" duration="2242000" />
+      <workItem from="1671865278907" duration="1600000" />
+      <workItem from="1671866909612" duration="21000" />
+      <workItem from="1671867717926" duration="7000" />
+      <workItem from="1671867745089" duration="59000" />
+      <workItem from="1671905310364" duration="4326000" />
+      <workItem from="1671964934964" duration="9000" />
+      <workItem from="1671991071946" duration="353000" />
+      <workItem from="1672078608228" duration="1198000" />
+      <workItem from="1672121029481" duration="7000" />
     </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1671385495054</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00021" summary="MenuProcess">
+      <created>1671738534685</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1671385495054</updated>
+      <updated>1671738534685</updated>
     </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <created>1671385505869</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00022" summary="MenuLoginProcess">
+      <created>1671738545453</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1671385505869</updated>
+      <updated>1671738545453</updated>
     </task>
-    <task id="LOCAL-00003" summary="Person">
-      <created>1671385518532</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00023" summary="MenuService">
+      <created>1671738588891</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1671385518532</updated>
+      <updated>1671738588891</updated>
     </task>
-    <task id="LOCAL-00004" summary="Teacher">
-      <created>1671385529965</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00024" summary="MenuLoginProcess">
+      <created>1671738726009</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1671385529965</updated>
+      <updated>1671738726009</updated>
     </task>
-    <task id="LOCAL-00005" summary="initial commit">
-      <created>1671385681104</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00025" summary="Menu">
+      <created>1671738820507</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1671385681104</updated>
+      <updated>1671738820507</updated>
     </task>
-    <task id="LOCAL-00006" summary="Teacher">
-      <created>1671385697698</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00026" summary="Menu">
+      <created>1671738982725</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1671385697698</updated>
+      <updated>1671738982725</updated>
     </task>
-    <task id="LOCAL-00007" summary="Main">
-      <created>1671477004296</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00027" summary="MenuLoginService">
+      <created>1671738995893</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1671477004296</updated>
+      <updated>1671738995893</updated>
     </task>
-    <task id="LOCAL-00008" summary="initial commit">
-      <created>1671477042647</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00028" summary="Main">
+      <created>1671777085139</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1671477042647</updated>
+      <updated>1671777085139</updated>
     </task>
-    <task id="LOCAL-00009" summary="Menu">
-      <created>1671477054333</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00029" summary="Menu">
+      <created>1671777096934</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1671477054333</updated>
+      <updated>1671777096934</updated>
     </task>
-    <task id="LOCAL-00010" summary="MenuUtil">
-      <created>1671477071996</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00030" summary="MenuLoginServiceInter">
+      <created>1671777106746</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1671477071996</updated>
+      <updated>1671777106746</updated>
     </task>
-    <task id="LOCAL-00011" summary="Student">
-      <created>1671477084459</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00031" summary="MenuLoginService">
+      <created>1671777121977</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1671477084459</updated>
+      <updated>1671777121977</updated>
     </task>
-    <task id="LOCAL-00012" summary="Teacher">
-      <created>1671477094929</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00032" summary="MenuUtil">
+      <created>1671777131074</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1671477094929</updated>
+      <updated>1671777131074</updated>
     </task>
-    <task id="LOCAL-00013" summary="initial commit">
-      <created>1671652146288</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00033" summary="MenuLoginService">
+      <created>1671777143028</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1671652146288</updated>
+      <updated>1671777143028</updated>
     </task>
-    <task id="LOCAL-00014" summary="Teacher">
-      <created>1671652195674</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00034" summary="MenuRegisterService">
+      <created>1671777158955</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1671652195674</updated>
+      <updated>1671777158955</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00035" summary="MenuRegisterServiceInter">
+      <created>1671777166958</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671777166958</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Main">
+      <created>1671905346679</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905346679</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Config">
+      <created>1671905363045</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905363045</updated>
+    </task>
+    <task id="LOCAL-00038" summary="FileUtility">
+      <created>1671905375217</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905375217</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Menu">
+      <created>1671905385036</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905385036</updated>
+    </task>
+    <task id="LOCAL-00040" summary="MenuAddStudentServiceInter">
+      <created>1671905397788</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905397788</updated>
+    </task>
+    <task id="LOCAL-00041" summary="MenuAddStudentService">
+      <created>1671905406832</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905406832</updated>
+    </task>
+    <task id="LOCAL-00042" summary="MenuAddTeacherService">
+      <created>1671905418747</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905418747</updated>
+    </task>
+    <task id="LOCAL-00043" summary="MenuAddTeacherServiceInter">
+      <created>1671905426156</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905426156</updated>
+    </task>
+    <task id="LOCAL-00044" summary="MenuLoginService">
+      <created>1671905435705</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905435705</updated>
+    </task>
+    <task id="LOCAL-00045" summary="MenuLoginServiceInter">
+      <created>1671905443867</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905443867</updated>
+    </task>
+    <task id="LOCAL-00046" summary="MenuRegisterService">
+      <created>1671905454243</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905454243</updated>
+    </task>
+    <task id="LOCAL-00047" summary="MenuUtil">
+      <created>1671905483464</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905483464</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Person">
+      <created>1671905537739</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905537739</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Student">
+      <created>1671905545335</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905545335</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Teacher">
+      <created>1671905556239</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1671905556239</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Config">
+      <created>1671991132133</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991132133</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Main">
+      <created>1671991139174</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991139174</updated>
+    </task>
+    <task id="LOCAL-00053" summary="MenuAddStudentService">
+      <created>1671991153395</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991153395</updated>
+    </task>
+    <task id="LOCAL-00054" summary="MenuAddTeacherService">
+      <created>1671991166487</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991166487</updated>
+    </task>
+    <task id="LOCAL-00055" summary="MenuShowStudentService">
+      <created>1671991179797</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991179797</updated>
+    </task>
+    <task id="LOCAL-00056" summary="MenuShowStudentServiceInter">
+      <created>1671991188676</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991188676</updated>
+    </task>
+    <task id="LOCAL-00057" summary="MenuShowTeacherService">
+      <created>1671991201614</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991201614</updated>
+    </task>
+    <task id="LOCAL-00058" summary="MenuShowTeacherServiceInter">
+      <created>1671991209498</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991209498</updated>
+    </task>
+    <task id="LOCAL-00059" summary="MenuService">
+      <created>1672079137357</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079137357</updated>
+    </task>
+    <task id="LOCAL-00060" summary="initial commit">
+      <created>1672079251016</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079251016</updated>
+    </task>
+    <task id="LOCAL-00061" summary="MenuService">
+      <created>1672079321333</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079321333</updated>
+    </task>
+    <task id="LOCAL-00062" summary="MenuAddTeacherService">
+      <created>1672079360742</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079360742</updated>
+    </task>
+    <task id="LOCAL-00063" summary="MenuAddStudentService">
+      <created>1672079380718</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079380718</updated>
+    </task>
+    <task id="LOCAL-00064" summary="MenuAddStudentService">
+      <created>1672079407804</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079407804</updated>
+    </task>
+    <task id="LOCAL-00065" summary="MenuAddTeacherService">
+      <created>1672079428048</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079428048</updated>
+    </task>
+    <task id="LOCAL-00066" summary="MenuLoginService">
+      <created>1672079496433</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079496433</updated>
+    </task>
+    <task id="LOCAL-00067" summary="MenuRegisterService">
+      <created>1672079506997</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079506997</updated>
+    </task>
+    <task id="LOCAL-00068" summary="MenuShowStudentService">
+      <created>1672079518542</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079518542</updated>
+    </task>
+    <task id="LOCAL-00069" summary="MenuShowTeacherService">
+      <created>1672079530794</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1672079530794</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,13 +452,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Person" />
-    <MESSAGE value="Main" />
+    <MESSAGE value="MenuProcess" />
+    <MESSAGE value="MenuLoginProcess" />
+    <MESSAGE value="MenuRegisterServiceInter" />
+    <MESSAGE value="FileUtility" />
     <MESSAGE value="Menu" />
+    <MESSAGE value="MenuAddStudentServiceInter" />
+    <MESSAGE value="MenuAddTeacherServiceInter" />
+    <MESSAGE value="MenuLoginServiceInter" />
     <MESSAGE value="MenuUtil" />
+    <MESSAGE value="Person" />
     <MESSAGE value="Student" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Teacher" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teacher" />
+    <MESSAGE value="Confi" />
+    <MESSAGE value="Config" />
+    <MESSAGE value="Main" />
+    <MESSAGE value="MenuShowStudentServiceInter" />
+    <MESSAGE value="MenuShowTeacherServiceInter" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="MenuService" />
+    <MESSAGE value="MenuAddStudentService" />
+    <MESSAGE value="MenuAddTeacherService" />
+    <MESSAGE value="MenuLoginService" />
+    <MESSAGE value="MenuRegisterService" />
+    <MESSAGE value="MenuShowStudentService" />
+    <MESSAGE value="MenuShowTeacherService" />
+    <option name="LAST_COMMIT_MESSAGE" value="MenuShowTeacherService" />
   </component>
 </project>
