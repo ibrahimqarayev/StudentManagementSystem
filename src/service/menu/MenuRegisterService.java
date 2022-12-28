@@ -1,10 +1,10 @@
 package service.menu;
 
-import service.menu.inter.MenuRegisterServiceInter;
+import service.inter.menu.MenuRegisterServiceInter;
 
 public class MenuRegisterService implements MenuRegisterServiceInter {
     @Override
-    public void processAbstract() {
+    public void processLogic() {
 
         System.out.println("Register");
 
