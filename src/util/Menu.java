@@ -2,7 +2,7 @@ package util;
 
 import bean.Config;
 import service.menu.*;
-import service.menu.inter.MenuService;
+import service.inter.Process;
 
 
 public enum Menu {
@@ -16,13 +16,13 @@ public enum Menu {
 
     private int number;
     private String label;
-    private MenuService service;
+    private Process service;
 
 
     Menu() {
     }
 
-    Menu(int number, String label, MenuService service) {
+    Menu(int number, String label, Process service) {
         this.label = label;
         this.service = service;
         this.number = number;
