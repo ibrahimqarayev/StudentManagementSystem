@@ -2,7 +2,8 @@ package service.menu;
 
 import bean.Config;
 import bean.Student;
-import service.menu.inter.MenuAddStudentServiceInter;
+import service.inter.menu.MenuAddStudentServiceInter;
+
 
 
 import java.util.Scanner;
@@ -10,7 +11,7 @@ import java.util.Scanner;
 public class MenuAddStudentService implements MenuAddStudentServiceInter {
 
     @Override
-    public void processAbstract() {
+    public void processLogic() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Name:");
