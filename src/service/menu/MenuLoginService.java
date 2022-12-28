@@ -1,14 +1,14 @@
 package service.menu;
 
 import bean.Config;
-import service.menu.inter.MenuLoginServiceInter;
+import service.inter.menu.MenuLoginServiceInter;
 
 import java.util.Scanner;
 
 public class MenuLoginService implements MenuLoginServiceInter {
 
     @Override
-    public void processAbstract() {
+    public void processLogic() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Username:");
