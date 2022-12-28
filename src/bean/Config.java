@@ -2,9 +2,10 @@ package bean;
 
 import util.FileUtility;
 
+import java.io.Serializable;
 
 
-public class Config {
+public class Config implements Serializable {
     private Student[] students = new Student[0];
     private Teacher[] teachers = new Teacher[0];
     private static Config config = null;
@@ -60,7 +61,7 @@ public class Config {
             newTeachers[i] = teachers[i];
         }
         newTeachers[newTeachers.length - 1] = teacher;
-        newTeachers = teachers;
+        teachers=newTeachers;
     }
 
 
