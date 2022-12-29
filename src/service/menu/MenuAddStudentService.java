@@ -4,8 +4,6 @@ import bean.Config;
 import bean.Student;
 import service.inter.menu.MenuAddStudentServiceInter;
 
-
-
 import java.util.Scanner;
 
 public class MenuAddStudentService implements MenuAddStudentServiceInter {
