@@ -4,15 +4,16 @@ import util.FileUtility;
 
 import java.io.Serializable;
 
-
 public class Config implements Serializable {
-    private Student[] students = new Student[0];
-    private Teacher[] teachers = new Teacher[0];
+
     private static Config config = null;
     private static boolean loggedIn;
+    private static final String fileName = "app.obj";
+    private Student[] students = new Student[0];
+    private Teacher[] teachers = new Teacher[0];
 
     public static void initialize() {
-        Object object = FileUtility.readFileDeserialize("app.obj");
+        Object object = FileUtility.readFileDeserialize(fileName);
         if (object == null) {
             return;
         }
@@ -23,7 +24,7 @@ public class Config implements Serializable {
 
 
     public static void save() {
-        FileUtility.writeObjectToFile(Config.instance(), "app.obj");
+        FileUtility.writeObjectToFile(Config.instance(), fileName);
     }
 
 
@@ -61,7 +62,7 @@ public class Config implements Serializable {
             newTeachers[i] = teachers[i];
         }
         newTeachers[newTeachers.length - 1] = teacher;
-        teachers=newTeachers;
+        teachers = newTeachers;
     }
 
 
